@@ -1,0 +1,97 @@
+My proposed roadmap:
+
+  1. Playback queue
+
+  - “Play next” and “Add to queue”
+  - Reorder and remove queued songs
+  - Save the current queue as a playlist
+  - Persist the queue after closing the app
+
+  2. Better listen-once experience
+
+  - Start playback as soon as enough audio is available instead of waiting for the entire download
+  - Show buffering/progress clearly
+  - Automatically play the next queued listen-once song
+  - Configurable cache size with “Clear temporary music”
+
+  3. Playlist improvements
+
+  - Rename playlists
+  - Reorder songs
+  - Playlist artwork based on the first four songs
+  - Download an entire playlist
+  - Export/import playlists
+  - Display whether a playlist song is downloaded or online-only
+
+  4. Library quality
+
+  - Sort by title, artist, recently added, duration, and file size
+  - Filter by artist or album
+  - Multi-select songs for deletion or playlist assignment
+  - Detect and clean duplicates
+  - Show total storage used
+  - Restore missing metadata and artwork
+
+  5. Player improvements
+
+  - Shuffle and repeat-all alongside repeat-one
+  - Sleep timer
+  - Playback speed
+  - Volume normalization
+  - Audio fade between tracks
+  - Swipe artwork to change tracks
+  - Lyrics support using user-provided local lyric files
+
+  6. Search improvements
+
+  - Search history and recent searches
+  - Artist, album, playlist, and song result categories
+  - Search suggestions
+  - Better “official release” filtering
+  - Open an artist to browse their songs and albums
+
+  7. Reliability
+
+  - Resume interrupted downloads
+  - Download queue supporting multiple songs
+  - Clear explanations for unavailable or region-restricted songs
+  - Wi-Fi-only download setting
+  - Storage-space warnings before large playlist downloads
+
+  8. Backup and portability
+
+  - Playlist backup is now implemented in Music/Pattalu
+  - Add manual export/import controls
+  - Back up listening preferences and queue
+  - Provide a backup-health indicator
+  - Support importing ordinary M3U playlists
+
+  9. Android integration
+
+  - Media notification actions
+  - Lock-screen artwork and controls
+  - Bluetooth/headset controls
+  - Android Auto support
+  - Home-screen player widget
+  - Quick Settings play/pause tile
+
+  10. Privacy and polish
+
+  - No account required
+  - No tracking by default
+  - Material You adaptive colors
+  - Proper empty, loading, and offline states
+  - Accessibility labels and large-touch-target mode
+  - Tamil and other language localization
+
+  My highest-value next release would contain:
+
+  - Persistent/reorderable playback queue
+  - Shuffle and repeat-all
+  - Sleep timer
+  - Playlist rename and song reordering
+  - Multi-song download queue
+  - Storage/cache management
+  - Improved artist and album browsing
+
+  These improve everyday listening without introducing unreliable recommendation logic or unnecessary account infrastructure.
